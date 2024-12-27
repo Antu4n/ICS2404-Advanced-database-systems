@@ -50,7 +50,19 @@ The centralized database will store the following entities:
 ### The ER diagram
 ![University student portal ER-diagram.](ER-diagrams/ICS2404-ER-dgm.png)
 
+# University Database Overview
 
+- **Tables & Purpose:**
+  1. `Course`: Academic programs
+  2. `Student`: Student records & enrollment
+  3. `Unit`: Course units/subjects
+  4. `Results`: Academic performance tracking
+  5. `Fees`: Financial records
+  6. `Semester`: Academic terms
+  7. `StudentUnitRegistration`: Unit enrollment
+  8. `Results`: Exam scores/grades
+
+Features: Foreign key relationships, automated grade calculation trigger, data validation constraints (gender, marks range), comprehensive student academic/financial tracking.
 
 ### Distributed Database Need
 
